@@ -1,3 +1,5 @@
+import { Input } from '@/components/ui/input';
+
 export default function AuthPage() {
   return (
     <main className="h-screen bg-">
@@ -5,10 +7,10 @@ export default function AuthPage() {
       <h3>Acesse sua conta</h3>
       <form action="">
         <label htmlFor="">
-          <input type="email" />
+          <Input placeholder="email" type="email" />
         </label>
         <label htmlFor="">
-          <input type="password" />
+          <Input placeholder="" type="password" />
         </label>
         <button type="submit">Entrar</button>
       </form>
