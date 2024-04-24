@@ -1,6 +1,6 @@
 export default function AuthPage() {
   return (
-    <main className="h-screen">
+    <main className="h-screen bg-">
       <h1>DashApp</h1>
       <h3>Acesse sua conta</h3>
       <form action="">
